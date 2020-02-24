@@ -1,0 +1,6 @@
+use_frameworks!
+target 'smartpod_Tests' do
+  pod 'smartpod', :path => '../'
+  
+  
+end
