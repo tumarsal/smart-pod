@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09839B4E68826A71BB18878C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		0EE9C2A412F8445CCF4AB7E7 /* smartpod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = smartpod.podspec; path = ../smartpod.podspec; sourceTree = "<group>"; };
+		09839B4E68826A71BB18878C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0EE9C2A412F8445CCF4AB7E7 /* smartpod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = smartpod.podspec; path = ../smartpod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* smartpod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartpod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		69569027BA5DE6CE4B179A3F /* Pods-smartpod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartpod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-smartpod_Tests/Pods-smartpod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B45C0D9D479EFF1B7A8E8D7 /* Pods-smartpod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartpod_Tests.release.xcconfig"; path = "Target Support Files/Pods-smartpod_Tests/Pods-smartpod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E9119FD71E5AF88779F6B6E2 /* Pods_smartpod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartpod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEF82EBEA0BCC2781FFE4E74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FEF82EBEA0BCC2781FFE4E74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 				69569027BA5DE6CE4B179A3F /* Pods-smartpod_Tests.debug.xcconfig */,
 				7B45C0D9D479EFF1B7A8E8D7 /* Pods-smartpod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

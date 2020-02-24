@@ -1,0 +1,16 @@
+PODS:
+  - smartpod (0.1.0)
+
+DEPENDENCIES:
+  - smartpod (from `../`)
+
+EXTERNAL SOURCES:
+  smartpod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  smartpod: 7ee0c50589d988f4d558854758bb5c12b9e9c0c6
+
+PODFILE CHECKSUM: 493110eb95e541368a55f0c177cc513b41fbabba
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module smartpod {
+  umbrella header "smartpod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "smartpod",
+  "version": "0.1.0",
+  "summary": "A short description of smartpod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Alex Mankov/smartpod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alex Mankov": "tumarsal@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Alex Mankov/smartpod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "smartpod/Classes/**/*"
+}
